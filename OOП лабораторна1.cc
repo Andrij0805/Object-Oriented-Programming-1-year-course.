@@ -24,7 +24,7 @@ int main()
 		cout << "FuncA=" << A << "\t" << "FuncB=" << B << endl;
 		cout << "\n\n\n";
 
-
+        cout << "\t\ttask 2" << endl;
 		for (float x_tab = -1; x_tab <= 1; x_tab += 0.2)
 		{
 			float B_tab = funcB(x_tab, y, z);
@@ -36,5 +36,6 @@ int main()
 	
 	return 0;
 }
+
 
 
